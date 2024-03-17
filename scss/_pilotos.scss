@@ -1,0 +1,49 @@
+@import "variables";
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.medium {
+  height: auto;
+  width: 25%;
+}
+
+.bordefoto {
+  border-radius: 20px;
+  color: $color-violeta;
+  border: solid 7px;
+}
+
+#efecImagen{
+  transition: all 3s;
+}
+
+#efecImagen:hover{
+  width: 80%;
+  height: 60%;
+
+}
+.imgPilotos{
+  display: block;
+  width: 60%;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: Formula1-Bold;
+}
+
+.medium {
+  height: auto;
+  width: 25%;
+}
+

@@ -1,0 +1,11 @@
+@import "variables";
+
+.marg {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.typePhotoEsc {
+  border: 5px $color-verde solid;
+  border-radius: 25%;
+}

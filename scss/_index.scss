@@ -1,0 +1,24 @@
+@import "variables";
+
+.imgNoticia {
+    display: block;
+    width: 30%;
+    border-radius: 20px;
+    border: solid $color-violeta 8px;
+}
+
+.contNoticia {
+    margin: 20px;
+    padding-top: 25px;
+    border-radius: 50px;
+    padding-bottom: 15px;
+
+    p {
+        font-family: Formula1-Italic;
+        color: $color-blanco;
+        text-align: left;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,74 @@
+@import "variables";
+
+@mixin subclass{
+    text-align: center;
+    font-family: Formula1-Bold;
+    background-color: $color-verde;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #acce00, #93d234, #7ad552, #60d66b, #43d783, #00d0a4, #00c8bb, #00bdc8, #00a6ce, #1a8dca, #5570b7, #745296);;
+}
+
+h1 {
+    color: $color-black !important;
+    font-family: Formula1-Wide;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 25px;
+    color: $color-black;
+    text-align: left;
+    margin: 10px;
+    font-family: Formula1-Bold;
+}
+
+p {
+    font-family: Formula1-Italic;
+    color: $color-black;
+    font-size: medium;
+}
+
+.botonesAbajo:hover {
+    color: $color-verde;
+}
+
+.articulo {
+    border: 5px solid $color-black;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+
+    i {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}
+
+.sub {
+    @include subclass;
+    font-size: 25px;
+    color: $color-black;
+    margin: 10px;
+    border: $color-black solid 2px
+}
+
+a {
+    font-family: Formula1-Wide;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-black;
+    padding-right: 50px;
+}
+
+.jumbotron {
+    background-color: $color-violeta !important;
+    height: auto;
+    background-size: cover;
+
+    p {
+        font-size: x-large;
+    }
+}

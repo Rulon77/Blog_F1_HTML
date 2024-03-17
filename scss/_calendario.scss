@@ -1,0 +1,30 @@
+@import "variables";
+
+.centrarItem {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inlinecal {
+  padding-bottom: 60px;
+}
+
+.calenNom {
+  font-family: Formula1-Italic;
+  color: $color-blanco;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 7px 5px $color-black;
+}
+
+.date {
+  width: 100%;
+  background: $color-black;
+  text-align: center;
+  font-size: x-large;
+  border: $color-violeta solid;
+  font-family: Formula1-Italic;
+  color: $color-blanco;
+}
