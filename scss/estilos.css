@@ -1,3 +1,15 @@
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 .flex {
   display: flex;
   flex-direction: row;
@@ -55,6 +67,18 @@ h3 {
   border-radius: 25%;
 }
 
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 .alinearDiv {
   text-align: center;
   justify-content: center;
@@ -77,6 +101,18 @@ h3 {
   font-size: medium;
 }
 
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 .centrarItem {
   display: flex;
   justify-content: space-around;
@@ -106,6 +142,18 @@ h3 {
   color: white;
 }
 
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 h3 {
   font-family: Formula1-Bold;
 }
@@ -122,6 +170,18 @@ main {
   padding: 20px;
 }
 
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 body {
   background-image: linear-gradient(to bottom, #acce00, #93d234, #7ad552, #60d66b, #43d783, #00d0a4, #00c8bb, #00bdc8, #00a6ce, #1a8dca, #5570b7, #745296);
 }
@@ -188,6 +248,18 @@ a {
   font-size: x-large;
 }
 
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 header {
   border-bottom: 1px solid black;
   text-align: center;
@@ -215,6 +287,18 @@ nav ul li {
   margin: 0 10px;
 }
 
+@font-face {
+  font-family: Formula1-bold;
+  src: url(/fonts/Formula1-Bold.ttf);
+}
+@font-face {
+  font-family: Formula1-Italic;
+  src: url(/fonts/Formula1-Italic.ttf);
+}
+@font-face {
+  font-family: Formula1-Wide;
+  src: url(/fonts/Formula1-Wide.ttf);
+}
 .imgNoticia {
   display: block;
   width: 30%;
