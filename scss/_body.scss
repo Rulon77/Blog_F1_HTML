@@ -4,12 +4,12 @@
 @mixin subclass{
     text-align: center;
     font-family: Formula1-Bold;
-    background-color: $color-verde;
+    background-color: $color-yellow;
 }
 
 
 body {
-    background-image: linear-gradient(to bottom, #acce00, #93d234, #7ad552, #60d66b, #43d783, #00d0a4, #00c8bb, #00bdc8, #00a6ce, #1a8dca, #5570b7, #745296);;
+    background-image: linear-gradient(to bottom, #ff0000, #d2001f, #a20027, #710826, #420f1d, #3e2131, #392f3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
 }
 
 h1 {
@@ -26,6 +26,11 @@ h2 {
     font-family: Formula1-Bold;
 }
 
+h4 {
+    font-family: Formula1-Bold;
+    text-shadow: 5px 2px 3px $color-black;
+}
+
 p {
     font-family: Formula1-Italic;
     color: $color-black;
@@ -33,7 +38,7 @@ p {
 }
 
 .botonesAbajo:hover {
-    color: $color-verde;
+    color: $color-red;
 }
 
 .articulo {
@@ -50,9 +55,9 @@ p {
 
 .sub {
     @include subclass;
-    font-size: 25px;
+    font-size: 40px;
     color: $color-black;
-    margin: 10px;
+    margin: 40px;
     border: $color-black solid 2px
 }
 
@@ -65,7 +70,7 @@ a {
 }
 
 .jumbotron {
-    background-color: $color-violeta !important;
+    background-color: $color-blanco !important;
     height: auto;
     background-size: cover;
 
@@ -73,3 +78,4 @@ a {
         font-size: x-large;
     }
 }
+

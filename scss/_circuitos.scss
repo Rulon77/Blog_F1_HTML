@@ -7,8 +7,10 @@
 }
 
 .contCircuitos {
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 60px;
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 .centrarItem2 {
@@ -18,7 +20,10 @@
 }
 
 .forP {
-  font-family: Formula1-wide;
-  color: $color-black;
+  font-family: Formula1-italic;
+  color: $color-blanco;
+  font-weight: bold;
   font-size: medium;
+  text-shadow: 5px 7px 5px $color-black;
+  font-size: xx-large;
 }
