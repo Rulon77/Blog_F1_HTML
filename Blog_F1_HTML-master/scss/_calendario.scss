@@ -1,0 +1,46 @@
+@import "variables";
+@import "fuentes";
+
+.centrarItem {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inlinecal {
+  padding-bottom: 60px;
+}
+
+.calenNom {
+  font-family: Formula1-Italic;
+  color: $color-blanco;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 10px 5px $color-black;
+  padding-bottom: 5px;
+  padding-top: 50px;
+}
+
+.date {
+  width: 100%;
+  background: $color-black;
+  text-align: center;
+  font-size: x-large;
+  border: $color-yellow solid 2px;
+  font-family: Formula1-Italic;
+  color: $color-blanco;
+}
+
+@media screen and (max-width: 767px) {
+  .calenNom, .date {
+      font-size: 20px; 
+  }
+
+  h2.sub{
+      font-size: 30px;
+  }
+}
+
+
+

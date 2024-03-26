@@ -1,0 +1,65 @@
+@import "variables";
+@import "fuentes";
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.medium {
+  height: auto;
+  width: 25%;
+}
+
+.bordefoto {
+  border-radius: 20px;
+  color: $color-black;
+  border: solid 5px;
+  box-shadow: 5px 7px 5px;
+}
+
+#efecImagen{
+  transition: all 3s;
+}
+
+#efecImagen:hover{
+  width: 80%;
+  height: 60%;
+
+}
+.imgPilotos{
+  display: block;
+  width: 60%;
+  border-radius: 20px;
+}
+
+.nomPilo {
+  font-family: Formula1-Italic;
+  color: $color-blanco;
+  text-shadow: 5px 7px 5px $color-black;
+  padding-top: 10px;
+}
+
+.medium {
+  height: auto;
+  width: 25%;
+}
+
+@media screen and (max-width: 495px){
+  h3.nomPilo  {
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 415px){
+  h3.nomPilo  {
+      font-size: 15px;
+    }
+}

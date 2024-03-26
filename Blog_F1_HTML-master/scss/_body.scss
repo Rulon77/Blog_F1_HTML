@@ -1,0 +1,81 @@
+@import "variables";
+@import "fuentes";
+
+@mixin subclass{
+    text-align: center;
+    font-family: Formula1-Bold;
+    background-color: $color-yellow;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #ff0000, #d2001f, #a20027, #710826, #420f1d, #3e2131, #392f3b, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+}
+
+h1 {
+    color: $color-black !important;
+    font-family: Formula1-Wide;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 25px;
+    color: $color-black;
+    text-align: left;
+    margin: 10px;
+    font-family: Formula1-Bold;
+}
+
+h4 {
+    font-family: Formula1-Bold;
+    text-shadow: 5px 2px 3px $color-black;
+}
+
+p {
+    font-family: Formula1-Italic;
+    color: $color-black;
+    font-size: medium;
+}
+
+.botonesAbajo:hover {
+    color: $color-red;
+}
+
+.articulo {
+    border: 5px solid $color-black;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+
+    i {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}
+
+.sub {
+    @include subclass;
+    font-size: 40px;
+    color: $color-black;
+    margin: 40px;
+    border: $color-black solid 2px
+}
+
+a {
+    font-family: Formula1-Wide;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-black;
+    padding-right: 50px;
+}
+
+.jumbotron {
+    background-color: $color-blanco !important;
+    height: auto;
+    background-size: cover;
+
+    p {
+        font-size: x-large;
+    }
+}
+
