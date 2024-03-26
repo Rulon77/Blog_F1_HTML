@@ -31,3 +31,16 @@
   font-family: Formula1-Italic;
   color: $color-blanco;
 }
+
+@media screen and (max-width: 767px) {
+  .calenNom, .date {
+      font-size: 20px; 
+  }
+
+  h2.sub{
+      font-size: 30px;
+  }
+}
+
+
+

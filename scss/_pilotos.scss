@@ -52,3 +52,14 @@
   width: 25%;
 }
 
+@media screen and (max-width: 495px){
+  h3.nomPilo  {
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 415px){
+  h3.nomPilo  {
+      font-size: 15px;
+    }
+}

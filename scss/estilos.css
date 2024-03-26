@@ -61,6 +61,16 @@
   width: 25%;
 }
 
+@media screen and (max-width: 495px) {
+  h3.nomPilo {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 415px) {
+  h3.nomPilo {
+    font-size: 15px;
+  }
+}
 .marg {
   padding-bottom: 50px;
   padding-top: 20px;
@@ -175,6 +185,14 @@
   color: white;
 }
 
+@media screen and (max-width: 767px) {
+  .calenNom, .date {
+    font-size: 20px;
+  }
+  h2.sub {
+    font-size: 30px;
+  }
+}
 @font-face {
   font-family: Formula1-bold;
   src: url(../fonts/Formula1-Bold.ttf);
@@ -374,6 +392,18 @@ nav ul li {
   word-wrap: break-word;
 }
 
+@media screen and (max-width: 991px) {
+  .imgNoticia {
+    display: block;
+    margin: 0 auto;
+  }
+  .contNoticia p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 @font-face {
   font-family: Formula1-bold;
   src: url(../fonts/Formula1-Bold.ttf);

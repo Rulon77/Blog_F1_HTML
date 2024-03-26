@@ -32,9 +32,23 @@
     }
 }
 
-
 .centrarItem2 {
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
-}  
+} 
+
+@media screen and (max-width: 991px) {
+    .imgNoticia{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contNoticia p{
+        text-align: center; 
+    }
+  
+    h2{
+        text-align: center;
+    }
+  }
